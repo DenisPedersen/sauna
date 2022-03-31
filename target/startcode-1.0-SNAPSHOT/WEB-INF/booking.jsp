@@ -49,11 +49,29 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            ...
+
+                            <form>
+                                <br>
+                                Vil du booke plads til sauna på ${item.address}?
+                                <br>
+                                <label for="name">Navn</label><br>
+                                <input type="text" id="name" name="name" placeholder="Navn"><br>
+                                <label for="tlf">Telefonnummer:</label><br>
+                                <input type="text" id="tlf" name="tlf" placeholder="Telefonnummer">
+                                <br>
+                                <label for="email">Email</label><br>
+                                <input type="text" id="email" name="email" placeholder="Email">
+                                <br>
+
+                                <br>
+                                <button type="button" class="btn btn-primary">Klik her for at gå til betaling</button>
+                            </form>
+
+
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Luk</button>
+
                         </div>
                     </div>
                 </div>
